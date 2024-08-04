@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "learning-fabric-1",
+	"version": "${version}",
+	"name": "Learning Fabric 1",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/learning-fabric-1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"live.chillytheeevee.LearningFabric1"
+		],
+		"client": [
+			"live.chillytheeevee.LearningFabric1Client"
+		]
+	},
+	"mixins": [
+		"learning-fabric-1.mixins.json",
+		{
+			"config": "learning-fabric-1.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
