@@ -1,0 +1,9 @@
+{
+  "values": [
+    "learning-fabric-1:example_block",
+    "learning-fabric-1:example_overworld_ore",
+    "learning-fabric-1:example_deepslate_ore",
+    "learning-fabric-1:example_nether_ore",
+    "learning-fabric-1:example_end_ore"
+  ]
+}

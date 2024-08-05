@@ -1,7 +1,13 @@
 package live.chillytheeevee;
 
+import live.chillytheeevee.init.RegistrationManager;
+import live.chillytheeevee.item.LearningFabric1Items;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +25,21 @@ public class LearningFabric1 implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Loading...");
+
+		// Registration
+		RegistrationManager registrationManager = new RegistrationManager();
+		registrationManager.manageRegistration();
+
+		// Register Events
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+			entries.addAfter(Items.PUMPKIN_PIE, LearningFabric1Items.EXAMPLE_FOOD);
+		});
+
+
+	}
+
+	public static Identifier id(String path) {
+		return Identifier.of(MOD_ID, path);
 	}
 }
