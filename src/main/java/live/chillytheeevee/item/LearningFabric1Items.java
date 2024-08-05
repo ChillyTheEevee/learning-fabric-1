@@ -3,7 +3,6 @@ package live.chillytheeevee.item;
 import live.chillytheeevee.LearningFabric1;
 import live.chillytheeevee.block.LearningFabric1Blocks;
 import live.chillytheeevee.component.type.LearningFabric1FoodComponents;
-import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
