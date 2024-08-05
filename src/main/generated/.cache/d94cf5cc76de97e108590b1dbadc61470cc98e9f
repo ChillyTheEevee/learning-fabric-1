@@ -1,6 +1,6 @@
-// 1.21	2024-08-04T23:29:37.9869339	Learning Fabric 1/Block Loot Tables
-b2963469b83f9b4d601a465409110b34059adc10 data\learning-fabric-1\loot_table\blocks\example_end_ore.json
+// 1.21	2024-08-05T15:45:13.150068	Learning Fabric 1/Block Loot Tables
+92fc989d8ef0c109c5446720791566032e029261 data\learning-fabric-1\loot_table\blocks\example_end_ore.json
 34a4214569ff5c24142f368341772ab11f26cd57 data\learning-fabric-1\loot_table\blocks\example_block.json
-101503580d1139a8757aa07a5bf109d6a9475a9d data\learning-fabric-1\loot_table\blocks\example_deepslate_ore.json
-a78c9a3625992a557ce5fe1ceb9fb3fafdc5f7c1 data\learning-fabric-1\loot_table\blocks\example_overworld_ore.json
-3583db4d1813b21a421d3397f7059b10017a38d9 data\learning-fabric-1\loot_table\blocks\example_nether_ore.json
+4ee3f4dc99b96a1d3c7cec738f1b00e9c2775790 data\learning-fabric-1\loot_table\blocks\example_deepslate_ore.json
+3c7709f5c9aae5e3171d460727552b119976c19c data\learning-fabric-1\loot_table\blocks\example_overworld_ore.json
+6fc0d140586ab3061a2d838bd59ca24955518808 data\learning-fabric-1\loot_table\blocks\example_nether_ore.json

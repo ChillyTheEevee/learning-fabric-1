@@ -6,5 +6,6 @@
   "block.learning-fabric-1.example_overworld_ore": "Example Overworld Ore",
   "item.learning-fabric-1.example_food": "Example Food",
   "item.learning-fabric-1.example_item": "Example Item",
+  "item.learning-fabric-1.example_raw_item": "Example Raw Item",
   "itemGroup.learning-fabric-1.example_group": "Learning Fabric 1"
 }

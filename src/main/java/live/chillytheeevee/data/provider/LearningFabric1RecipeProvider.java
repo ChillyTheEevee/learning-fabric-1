@@ -35,12 +35,12 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(LearningFabric1Blocks.EXAMPLE_BLOCK), conditionsFromItem(LearningFabric1Blocks.EXAMPLE_BLOCK))
                 .offerTo(exporter);
 
-        List<ItemConvertible> exampleOres = List.of(LearningFabric1Blocks.EXAMPLE_OVERWORLD_ORE,
-                LearningFabric1Blocks.EXAMPLE_DEEPSLATE_ORE, LearningFabric1Blocks.EXAMPLE_NETHER_ORE,
-                LearningFabric1Blocks.EXAMPLE_END_ORE);
+        List<ItemConvertible> smeltableIntoExampleItemList = List.of(LearningFabric1Items.EXAMPLE_RAW_ITEM,
+                LearningFabric1Blocks.EXAMPLE_OVERWORLD_ORE, LearningFabric1Blocks.EXAMPLE_DEEPSLATE_ORE,
+                LearningFabric1Blocks.EXAMPLE_NETHER_ORE, LearningFabric1Blocks.EXAMPLE_END_ORE);
 
         offerBlasting(exporter,
-                exampleOres,
+                smeltableIntoExampleItemList,
                 RecipeCategory.MISC,
                 LearningFabric1Items.EXAMPLE_ITEM,
                 0.2f,
@@ -48,7 +48,7 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 "example");
 
         offerSmelting(exporter,
-                exampleOres,
+                smeltableIntoExampleItemList,
                 RecipeCategory.MISC,
                 LearningFabric1Items.EXAMPLE_ITEM,
                 0.2f,

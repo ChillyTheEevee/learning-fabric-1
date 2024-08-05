@@ -22,12 +22,13 @@ public class LearningFabric1ItemGroups {
                 .icon(LearningFabric1Items.EXAMPLE_ITEM::getDefaultStack)
                 .entries(((displayContext, entries) -> {
                     entries.add(LearningFabric1Items.EXAMPLE_ITEM);
-                    entries.add(LearningFabric1Items.EXAMPLE_FOOD);
+                    entries.add(LearningFabric1Items.EXAMPLE_RAW_ITEM);
                     entries.add(LearningFabric1Items.EXAMPLE_BLOCK);
                     entries.add(LearningFabric1Items.EXAMPLE_OVERWORLD_ORE);
                     entries.add(LearningFabric1Items.EXAMPLE_DEEPSLATE_ORE);
                     entries.add(LearningFabric1Items.EXAMPLE_NETHER_ORE);
                     entries.add(LearningFabric1Items.EXAMPLE_END_ORE);
+                    entries.add(LearningFabric1Items.EXAMPLE_FOOD);
                 }))
                 .build());
     }

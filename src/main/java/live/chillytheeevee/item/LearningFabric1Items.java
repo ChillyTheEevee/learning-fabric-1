@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 public class LearningFabric1Items {
 
     public static final Item EXAMPLE_ITEM;
+    public static final Item EXAMPLE_RAW_ITEM;
     public static final Item EXAMPLE_FOOD;
     public static final Item EXAMPLE_BLOCK;
     public static final Item EXAMPLE_OVERWORLD_ORE;
@@ -24,6 +25,7 @@ public class LearningFabric1Items {
 
     static {
         EXAMPLE_ITEM = register("example_item", new Item(new Item.Settings()));
+        EXAMPLE_RAW_ITEM = register("example_raw_item", new Item(new Item.Settings()));
         EXAMPLE_FOOD = register("example_food", new Item(new Item.Settings()
                 .food(LearningFabric1FoodComponents.EXAMPLE_FOOD)
                 .fireproof()));

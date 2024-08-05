@@ -26,6 +26,7 @@ public class LearningFabric1ModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_ITEM, Models.GENERATED);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_RAW_ITEM, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_FOOD, Models.GENERATED);
     }
 }

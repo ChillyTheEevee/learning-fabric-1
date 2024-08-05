@@ -32,6 +32,7 @@ public class LearningFabric1EnglishLanguageProvider extends FabricLanguageProvid
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(LearningFabric1Items.EXAMPLE_ITEM, "Example Item");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_RAW_ITEM, "Example Raw Item");
         translationBuilder.add(LearningFabric1Items.EXAMPLE_FOOD, "Example Food");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_BLOCK, "Example Block");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_OVERWORLD_ORE, "Example Overworld Ore");
