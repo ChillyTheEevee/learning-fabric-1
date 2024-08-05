@@ -4,12 +4,11 @@ import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
+/**
+ * Contains the FoodComponent data of all food Items within LearningFabric1.
+ */
 public class LearningFabric1FoodComponents {
     public static final FoodComponent EXAMPLE_FOOD;
-
-    public static void registerFoodComponents() {
-
-    }
 
     static {
         EXAMPLE_FOOD = new FoodComponent.Builder()

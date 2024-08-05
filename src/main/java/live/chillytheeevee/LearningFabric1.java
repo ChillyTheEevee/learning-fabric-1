@@ -1,6 +1,7 @@
 package live.chillytheeevee;
 
 import live.chillytheeevee.init.RegistrationManager;
+import live.chillytheeevee.init.worldgen.BiomeModificationsInit;
 import live.chillytheeevee.item.LearningFabric1Items;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -30,6 +31,7 @@ public class LearningFabric1 implements ModInitializer {
         RegistrationManager registrationManager = new RegistrationManager();
         registrationManager.manageRegistration();
 
+        BiomeModificationsInit.load();
         // Register Events
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries ->
                 entries.addAfter(Items.PUMPKIN_PIE, LearningFabric1Items.EXAMPLE_FOOD));

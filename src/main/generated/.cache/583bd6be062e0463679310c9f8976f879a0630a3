@@ -1,4 +1,4 @@
-// 1.21	2024-08-05T15:45:13.1510684	Learning Fabric 1/Model Definitions
+// 1.21	2024-08-05T17:59:03.2261971	Learning Fabric 1/Model Definitions
 48a92aff1bda31baf69337a538e39959fb7b2560 assets\learning-fabric-1\blockstates\example_nether_ore.json
 043824a9eb4a38d9ec53a4ff4bf1e70a1f78e907 assets\learning-fabric-1\models\item\example_nether_ore.json
 ee50fae815f4dc53f1fa44c455ee89789acdff95 assets\learning-fabric-1\blockstates\example_end_ore.json
@@ -9,8 +9,8 @@ ed045b29df64af24426fe6a78a3bc0101848aec1 assets\learning-fabric-1\models\block\e
 1b246dc776157d372c596fd19ea3570f6b06d59d assets\learning-fabric-1\models\item\example_deepslate_ore.json
 b3a12e59f03cfa33e0be6e989cb6e97d3e0ac460 assets\learning-fabric-1\models\item\example_item.json
 bf73e2d60970abee2544f5d8aa3814a3fa350567 assets\learning-fabric-1\models\item\example_end_ore.json
-38a3a3fbddb081793278ddcd6761b0105a340346 assets\learning-fabric-1\models\item\example_block.json
 386abd1a4107c0b2ec317b25ec8ebabdfd62805f assets\learning-fabric-1\models\item\example_overworld_ore.json
+38a3a3fbddb081793278ddcd6761b0105a340346 assets\learning-fabric-1\models\item\example_block.json
 c44d73dea13a6a17407278e6798ac3f84aeb2b8a assets\learning-fabric-1\models\item\example_food.json
 d539f06ebb1ddd7e11b0484a9da6a649eaa70914 assets\learning-fabric-1\blockstates\example_overworld_ore.json
 d91dcb9f5a5e857c6e63434c5a3c24fc32ecc769 assets\learning-fabric-1\models\block\example_end_ore.json

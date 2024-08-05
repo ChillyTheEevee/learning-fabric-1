@@ -7,12 +7,18 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 
+/**
+ * A Class containing all of the {@link ItemGroup}s contained within LearningFabric1
+ */
 public class LearningFabric1ItemGroups {
 
     public static final ItemGroup EXAMPLE_ITEM_GROUP;
 
+    /**
+     * Registers LearningFabric1's {@link ItemGroup}s with Minecraft
+     */
     public static void registerItemGroups() {
-
+        // Invokes the static block below to ensure all ItemGroups are registered
     }
 
     static {
@@ -33,6 +39,14 @@ public class LearningFabric1ItemGroups {
                 .build());
     }
 
+    /**
+     * Registers the given {@link ItemGroup} with Minecraft
+     *
+     * @param name      The internal name to give this ItemGroup during registration
+     * @param itemGroup The ItemGroup to be registered with Minecraft
+     * @param <T>       A Class that extends ItemGroup
+     * @return The ItemGroup registered with Minecraft
+     */
     private static <T extends ItemGroup> T register(String name, T itemGroup) {
         return Registry.register(Registries.ITEM_GROUP, LearningFabric1.id(name), itemGroup);
     }

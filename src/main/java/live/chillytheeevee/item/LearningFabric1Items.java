@@ -8,6 +8,9 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
+/**
+ * A Class containing all of the {@link Item}s within LearningFabric1
+ */
 public class LearningFabric1Items {
 
     public static final Item EXAMPLE_ITEM;
@@ -19,8 +22,11 @@ public class LearningFabric1Items {
     public static final Item EXAMPLE_NETHER_ORE;
     public static final Item EXAMPLE_END_ORE;
 
+    /**
+     * Registers LearningFabric1's Items with Minecraft
+     */
     public static void registerItems() {
-
+        // Invokes the static block below to ensure all Items are registered
     }
 
     static {
@@ -41,6 +47,14 @@ public class LearningFabric1Items {
                 new BlockItem(LearningFabric1Blocks.EXAMPLE_END_ORE, new Item.Settings()));
     }
 
+    /**
+     * Registers the given {@link Item} with Minecraft
+     *
+     * @param name The internal name to give this Item during registration
+     * @param item The Item to be registered with Minecraft
+     * @param <T>  A Class that extends Item
+     * @return The Item registered with Minecraft
+     */
     private static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, LearningFabric1.id(name), item);
     }
