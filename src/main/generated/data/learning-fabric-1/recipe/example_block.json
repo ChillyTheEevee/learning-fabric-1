@@ -1,15 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "E": {
+  "ingredients": [
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
+      "item": "learning-fabric-1:example_item"
+    },
+    {
       "item": "learning-fabric-1:example_item"
     }
-  },
-  "pattern": [
-    "EEE",
-    "EEE",
-    "EEE"
   ],
   "result": {
     "count": 1,

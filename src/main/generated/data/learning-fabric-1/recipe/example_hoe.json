@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "learning-fabric-1:example_item"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    "EE",
+    " S",
+    " S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "learning-fabric-1:example_hoe"
+  }
+}

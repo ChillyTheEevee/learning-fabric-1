@@ -34,6 +34,11 @@ public class LearningFabric1EnglishLanguageProvider extends FabricLanguageProvid
         translationBuilder.add(LearningFabric1Items.EXAMPLE_ITEM, "Example Item");
         translationBuilder.add(LearningFabric1Items.EXAMPLE_RAW_ITEM, "Example Raw Item");
         translationBuilder.add(LearningFabric1Items.EXAMPLE_FOOD, "Example Food");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_SWORD, "Example Sword");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_PICKAXE, "Example Pickaxe");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_AXE, "Example Axe");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_SHOVEL, "Example Shovel");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_HOE, "Example Hoe");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_BLOCK, "Example Block");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_OVERWORLD_ORE, "Example Overworld Ore");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_DEEPSLATE_ORE, "Example Deepslate Ore");

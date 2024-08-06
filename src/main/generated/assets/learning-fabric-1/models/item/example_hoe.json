@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "learning-fabric-1:item/example_hoe"
+  }
+}
