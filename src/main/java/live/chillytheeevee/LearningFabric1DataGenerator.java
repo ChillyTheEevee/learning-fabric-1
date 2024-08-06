@@ -18,6 +18,7 @@ public class LearningFabric1DataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(LearningFabric1EnglishLanguageProvider::new);
         pack.addProvider(LearningFabric1BlockLootTableProvider::new);
         pack.addProvider(LearningFabric1BlockTagProvider::new);
+        pack.addProvider(LearningFabric1ItemTagProvider::new);
         pack.addProvider(LearningFabric1WorldGenerator::new);
         pack.addProvider(LearningFabric1RecipeProvider::new);
     }

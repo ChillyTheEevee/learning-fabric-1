@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_c:rods/wooden": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:rods/wooden"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_example_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "learning-fabric-1:example_item"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "learning-fabric-1:example_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_example_item",
+      "has_c:rods/wooden"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "learning-fabric-1:example_pickaxe"
+    ]
+  }
+}

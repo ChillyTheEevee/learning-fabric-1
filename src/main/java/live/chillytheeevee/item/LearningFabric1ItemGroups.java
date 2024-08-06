@@ -35,6 +35,11 @@ public class LearningFabric1ItemGroups {
                     entries.add(LearningFabric1Items.EXAMPLE_NETHER_ORE);
                     entries.add(LearningFabric1Items.EXAMPLE_END_ORE);
                     entries.add(LearningFabric1Items.EXAMPLE_FOOD);
+                    entries.add(LearningFabric1Items.EXAMPLE_SHOVEL);
+                    entries.add(LearningFabric1Items.EXAMPLE_PICKAXE);
+                    entries.add(LearningFabric1Items.EXAMPLE_AXE);
+                    entries.add(LearningFabric1Items.EXAMPLE_HOE);
+                    entries.add(LearningFabric1Items.EXAMPLE_SWORD);
                 }))
                 .build());
     }

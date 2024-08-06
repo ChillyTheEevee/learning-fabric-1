@@ -4,8 +4,13 @@
   "block.learning-fabric-1.example_end_ore": "Example End Ore",
   "block.learning-fabric-1.example_nether_ore": "Example Nether Ore",
   "block.learning-fabric-1.example_overworld_ore": "Example Overworld Ore",
+  "item.learning-fabric-1.example_axe": "Example Axe",
   "item.learning-fabric-1.example_food": "Example Food",
+  "item.learning-fabric-1.example_hoe": "Example Hoe",
   "item.learning-fabric-1.example_item": "Example Item",
+  "item.learning-fabric-1.example_pickaxe": "Example Pickaxe",
   "item.learning-fabric-1.example_raw_item": "Example Raw Item",
+  "item.learning-fabric-1.example_shovel": "Example Shovel",
+  "item.learning-fabric-1.example_sword": "Example Sword",
   "itemGroup.learning-fabric-1.example_group": "Learning Fabric 1"
 }
