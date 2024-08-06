@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "learning-fabric-1:example_item"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "result": {
+    "count": 1,
+    "id": "learning-fabric-1:example_helmet"
+  }
+}

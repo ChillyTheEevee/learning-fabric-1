@@ -33,5 +33,9 @@ public class LearningFabric1ModelProvider extends FabricModelProvider {
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_AXE, Models.HANDHELD);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_BOOTS, Models.GENERATED);
     }
 }

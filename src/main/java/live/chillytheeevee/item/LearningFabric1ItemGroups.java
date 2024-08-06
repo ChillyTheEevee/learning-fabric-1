@@ -40,6 +40,10 @@ public class LearningFabric1ItemGroups {
                     entries.add(LearningFabric1Items.EXAMPLE_AXE);
                     entries.add(LearningFabric1Items.EXAMPLE_HOE);
                     entries.add(LearningFabric1Items.EXAMPLE_SWORD);
+                    entries.add(LearningFabric1Items.EXAMPLE_HELMET);
+                    entries.add(LearningFabric1Items.EXAMPLE_CHESTPLATE);
+                    entries.add(LearningFabric1Items.EXAMPLE_LEGGINGS);
+                    entries.add(LearningFabric1Items.EXAMPLE_BOOTS);
                 }))
                 .build());
     }

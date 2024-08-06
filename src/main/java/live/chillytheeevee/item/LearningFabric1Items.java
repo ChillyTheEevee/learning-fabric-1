@@ -25,6 +25,10 @@ public class LearningFabric1Items {
     public static final Item EXAMPLE_AXE;
     public static final Item EXAMPLE_SHOVEL;
     public static final Item EXAMPLE_HOE;
+    public static final Item EXAMPLE_HELMET;
+    public static final Item EXAMPLE_CHESTPLATE;
+    public static final Item EXAMPLE_LEGGINGS;
+    public static final Item EXAMPLE_BOOTS;
 
     /**
      * Registers LearningFabric1's Items with Minecraft
@@ -69,6 +73,18 @@ public class LearningFabric1Items {
                 new HoeItem(LearningFabric1ToolMaterials.EXAMPLE, new Item.Settings()
                         .attributeModifiers(HoeItem.createAttributeModifiers(LearningFabric1ToolMaterials.EXAMPLE,
                                 1, 0.0f))));
+        EXAMPLE_HELMET = register("example_helmet",
+                new ArmorItem(LearningFabric1ArmorMaterials.EXAMPLE,
+                        ArmorItem.Type.HELMET, new Item.Settings().maxCount(1)));
+        EXAMPLE_CHESTPLATE = register("example_chestplate",
+                new ArmorItem(LearningFabric1ArmorMaterials.EXAMPLE,
+                        ArmorItem.Type.CHESTPLATE, new Item.Settings().maxCount(1)));
+        EXAMPLE_LEGGINGS = register("example_leggings",
+                new ArmorItem(LearningFabric1ArmorMaterials.EXAMPLE,
+                        ArmorItem.Type.LEGGINGS, new Item.Settings().maxCount(1)));
+        EXAMPLE_BOOTS = register("example_boots",
+                new ArmorItem(LearningFabric1ArmorMaterials.EXAMPLE,
+                        ArmorItem.Type.BOOTS, new Item.Settings().maxCount(1)));
     }
 
     /**

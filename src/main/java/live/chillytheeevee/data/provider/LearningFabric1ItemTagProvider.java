@@ -25,5 +25,12 @@ public class LearningFabric1ItemTagProvider extends FabricTagProvider.ItemTagPro
                 .add(LearningFabric1Items.EXAMPLE_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(LearningFabric1Items.EXAMPLE_HOE);
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(LearningFabric1Items.EXAMPLE_ITEM);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(LearningFabric1Items.EXAMPLE_HELMET)
+                .add(LearningFabric1Items.EXAMPLE_CHESTPLATE)
+                .add(LearningFabric1Items.EXAMPLE_LEGGINGS)
+                .add(LearningFabric1Items.EXAMPLE_BOOTS);
     }
 }

@@ -76,6 +76,32 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
                 .criterion(hasTag(ConventionalItemTags.WOODEN_RODS), conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_HELMET)
+                .input('E', LearningFabric1Items.EXAMPLE_ITEM)
+                .pattern("EEE")
+                .pattern("E E")
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_CHESTPLATE)
+                .input('E', LearningFabric1Items.EXAMPLE_ITEM)
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_LEGGINGS)
+                .input('E', LearningFabric1Items.EXAMPLE_ITEM)
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("E E")
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_BOOTS)
+                .input('E', LearningFabric1Items.EXAMPLE_ITEM)
+                .pattern("E E")
+                .pattern("E E")
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .offerTo(exporter);
     }
 
     private void generateShapelessRecipes(RecipeExporter exporter) {
