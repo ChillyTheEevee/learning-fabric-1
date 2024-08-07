@@ -8,7 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 
 /**
- * A Class containing all of the {@link ItemGroup}s contained within LearningFabric1
+ * A Class containing all the {@link ItemGroup}s contained within LearningFabric1
  */
 public class LearningFabric1ItemGroups {
 
@@ -45,6 +45,25 @@ public class LearningFabric1ItemGroups {
                     entries.add(LearningFabric1Items.EXAMPLE_LEGGINGS);
                     entries.add(LearningFabric1Items.EXAMPLE_BOOTS);
                     entries.add(LearningFabric1Items.EXAMPLE_FLOWER);
+                    entries.add(LearningFabric1Items.EXAMPLE_SAPLING);
+                    entries.add(LearningFabric1Items.EXAMPLE_LEAVES);
+                    entries.add(LearningFabric1Items.EXAMPLE_LOG);
+                    entries.add(LearningFabric1Items.EXAMPLE_WOOD);
+                    entries.add(LearningFabric1Items.EXAMPLE_STRIPPED_LOG);
+                    entries.add(LearningFabric1Items.EXAMPLE_STRIPPED_WOOD);
+                    entries.add(LearningFabric1Items.EXAMPLE_PLANKS);
+                    entries.add(LearningFabric1Items.EXAMPLE_STAIRS);
+                    entries.add(LearningFabric1Items.EXAMPLE_SLAB);
+                    entries.add(LearningFabric1Items.EXAMPLE_FENCE);
+                    entries.add(LearningFabric1Items.EXAMPLE_FENCE_GATE);
+                    entries.add(LearningFabric1Items.EXAMPLE_DOOR);
+                    entries.add(LearningFabric1Items.EXAMPLE_TRAPDOOR);
+                    entries.add(LearningFabric1Items.EXAMPLE_PRESSURE_PLATE);
+                    entries.add(LearningFabric1Items.EXAMPLE_BUTTON);
+                    entries.add(LearningFabric1Items.EXAMPLE_SIGN);
+                    entries.add(LearningFabric1Items.EXAMPLE_HANGING_SIGN);
+                    entries.add(LearningFabric1Items.EXAMPLE_BOAT);
+                    entries.add(LearningFabric1Items.EXAMPLE_CHEST_BOAT);
                 }))
                 .build());
     }

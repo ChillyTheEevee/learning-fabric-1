@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "learning-fabric-1:block/example_stripped_log_top",
+    "side": "learning-fabric-1:block/example_stripped_log"
+  }
+}

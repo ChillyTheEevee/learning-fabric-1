@@ -1,8 +1,23 @@
-// 1.21	2024-08-06T22:36:12.2685449	Learning Fabric 1/Tags for minecraft:block
+// 1.21	2024-08-07T04:26:55.5290464	Learning Fabric 1/Tags for minecraft:block
+961bb5eae4ce19713d73344f9206338be42c5747 data\minecraft\tags\block\wooden_pressure_plates.json
+cf939fe4dd5e428d4080bc233ae49a4bb13dd5c7 data\learning-fabric-1\tags\block\example_logs.json
 166ac72bac4cbddab79b5b7cc3c96ae7df1752e8 data\minecraft\tags\block\beacon_base_blocks.json
+933c45e5fe16f50366268480428ef18ed75f3d05 data\minecraft\tags\block\wooden_fences.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\learning-fabric-1\tags\block\incorrect_for_example_tool.json
+de6fd96ff06aa0fd0be06412f0450ceca96b1463 data\minecraft\tags\block\wall_signs.json
+6bfd849c828150ceb975c692cc0de6c91d0f5bb5 data\minecraft\tags\block\wooden_slabs.json
+5ba64baadb7fe05cc84aef57c90e54c86dd17b2c data\minecraft\tags\block\wooden_buttons.json
+d00fe63e16836fbb3025d8ca3447c16f433333c2 data\minecraft\tags\block\logs_that_burn.json
+6538a2d57205731b114cec5dff4b4dc57643fa25 data\minecraft\tags\block\wooden_doors.json
+0e1b659968678a39c8543d73f8f971ee5c72b5f0 data\minecraft\tags\block\wooden_trapdoors.json
+129c4500962cdaa4de819b8a1ef087a20582917e data\minecraft\tags\block\wooden_stairs.json
 5d8a89bbfc73471670ab73347bbb385e1a395883 data\learning-fabric-1\tags\block\example.json
 a30553f445ce6081673672d8f442ccef38813d77 data\minecraft\tags\block\small_flowers.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\learning-fabric-1\tags\block\incorrect_for_example_tool.json
+f39fb87e63aa87eefa5bdd9d5cf40cf4edcd2efa data\minecraft\tags\block\ceiling_hanging_signs.json
+c47bb5af3f08dd9809350ca0d0e54f41c4e751ef data\minecraft\tags\block\leaves.json
+78f6cadf8686fc1d1381521ad1b85e63beffd7c2 data\minecraft\tags\block\wall_hanging_signs.json
+ffbb36ae75f96120e19541375ab6fc25749018b6 data\minecraft\tags\block\saplings.json
 1827ee4cd59f6decc919030749740678894615dd data\minecraft\tags\block\flower_pots.json
+5e125aa5f2e3075087bfb6163e8217ad7718fa58 data\minecraft\tags\block\standing_signs.json
 2df1226dd2bace6b2bab24c705ea19e7ac12abea data\minecraft\tags\block\needs_iron_tool.json
 2df1226dd2bace6b2bab24c705ea19e7ac12abea data\minecraft\tags\block\mineable\pickaxe.json

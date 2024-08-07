@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_c:chains": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:chains"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_example_stripped_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "learning-fabric-1:example_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "learning-fabric-1:example_hanging_sign"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_example_stripped_log",
+      "has_c:chains"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "learning-fabric-1:example_hanging_sign"
+    ]
+  }
+}

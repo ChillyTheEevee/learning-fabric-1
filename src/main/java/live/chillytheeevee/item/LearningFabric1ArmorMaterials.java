@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.function.Supplier;
 
 /**
- * A class containing all of the {@link ArmorMaterials} within LearningFabric1
+ * A class containing all the {@link ArmorMaterials} within LearningFabric1
  */
 public class LearningFabric1ArmorMaterials {
 

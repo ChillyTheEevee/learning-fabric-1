@@ -4,6 +4,7 @@ import live.chillytheeevee.LearningFabric1;
 import live.chillytheeevee.block.LearningFabric1Blocks;
 import live.chillytheeevee.item.LearningFabric1ItemGroups;
 import live.chillytheeevee.item.LearningFabric1Items;
+import live.chillytheeevee.registry.tag.LearningFabric1ItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -51,6 +52,26 @@ public class LearningFabric1EnglishLanguageProvider extends FabricLanguageProvid
         addText(translationBuilder, LearningFabric1ItemGroups.EXAMPLE_ITEM_GROUP.getDisplayName(), "Learning Fabric 1");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_FLOWER, "Example Flower");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_FLOWER_POT, "Example Flower Pot");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_LOG, "Example Log");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_STRIPPED_LOG, "Example Stripped Log");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_WOOD, "Example Wood");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_STRIPPED_WOOD, "Example Stripped Wood");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_LEAVES, "Example Leaves");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_SAPLING, "Example Sapling");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_PLANKS, "Example Planks");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_SLAB, "Example Slab");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_STAIRS, "Example Stairs");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_FENCE, "Example Fence");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_FENCE_GATE, "Example Fence Gate");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_DOOR, "Example Door");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_TRAPDOOR, "Example Trapdoor");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_BUTTON, "Example Button");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_PRESSURE_PLATE, "Example Pressure Plate");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_SIGN, "Example Sign");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_HANGING_SIGN, "Example Hanging Sign");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_BOAT, "Example Boat");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_CHEST_BOAT, "Example Boat With Chest");
+        translationBuilder.add(LearningFabric1ItemTags.EXAMPLE_LOGS, "Example Logs");
     }
 
 }

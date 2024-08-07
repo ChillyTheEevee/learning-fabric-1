@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "learning-fabric-1:block/example_slab"
+    },
+    "type=double": {
+      "model": "learning-fabric-1:block/example_planks"
+    },
+    "type=top": {
+      "model": "learning-fabric-1:block/example_slab_top"
+    }
+  }
+}
