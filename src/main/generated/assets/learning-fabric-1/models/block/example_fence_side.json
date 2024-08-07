@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "learning-fabric-1:block/example_planks"
+  }
+}

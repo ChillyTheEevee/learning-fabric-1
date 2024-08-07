@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "learning-fabric-1:block/example_planks",
+    "side": "learning-fabric-1:block/example_planks",
+    "top": "learning-fabric-1:block/example_planks"
+  }
+}

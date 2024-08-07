@@ -1,8 +1,25 @@
-// 1.21	2024-08-06T22:36:12.2675431	Learning Fabric 1/Block Loot Tables
-92fc989d8ef0c109c5446720791566032e029261 data\learning-fabric-1\loot_table\blocks\example_end_ore.json
+// 1.21	2024-08-07T04:26:55.5279076	Learning Fabric 1/Block Loot Tables
+bfba23dbe56f7f4f4572a5b26050c5e2588178db data\minecraft\loot_table\blocks\oak_sign.json
+cd957bea1e47ef2720144e1e61b8703c27d5c083 data\learning-fabric-1\loot_table\blocks\example_trapdoor.json
+6198954fe4771ec2b2f31373f94b35751ea8f77d data\learning-fabric-1\loot_table\blocks\example_stripped_log.json
 34a4214569ff5c24142f368341772ab11f26cd57 data\learning-fabric-1\loot_table\blocks\example_block.json
 4ee3f4dc99b96a1d3c7cec738f1b00e9c2775790 data\learning-fabric-1\loot_table\blocks\example_deepslate_ore.json
+bfba23dbe56f7f4f4572a5b26050c5e2588178db data\learning-fabric-1\loot_table\blocks\example_sign.json
 3c7709f5c9aae5e3171d460727552b119976c19c data\learning-fabric-1\loot_table\blocks\example_overworld_ore.json
 8bf5510b05e5740a40a0b35f0861626c7ce4350a data\learning-fabric-1\loot_table\blocks\example_flower_pot.json
-40bd27b8d404e538671b3850621284af92ac4d7c data\learning-fabric-1\loot_table\blocks\example_flower.json
+84f37cd731d6b84e8eaa0adee9e3222240965ab8 data\learning-fabric-1\loot_table\blocks\example_stairs.json
 6fc0d140586ab3061a2d838bd59ca24955518808 data\learning-fabric-1\loot_table\blocks\example_nether_ore.json
+d913ca87723eba5f72de98b99c51ae75385d5b7b data\learning-fabric-1\loot_table\blocks\example_pressure_plate.json
+2f4cdcb25f50a8c41e109c955acc04f211596bee data\learning-fabric-1\loot_table\blocks\example_log.json
+0d521b3cbad0d052e609e5cb5545596a9535f8dd data\learning-fabric-1\loot_table\blocks\example_fence_gate.json
+82d599fd93415bde6ea846360dbab94d28c24840 data\learning-fabric-1\loot_table\blocks\example_button.json
+1144d78830c613454462d938bd51205590498dda data\learning-fabric-1\loot_table\blocks\example_fence.json
+28ffef7fbe57d93b7975aafa355d27920aca9318 data\learning-fabric-1\loot_table\blocks\example_stripped_wood.json
+92fc989d8ef0c109c5446720791566032e029261 data\learning-fabric-1\loot_table\blocks\example_end_ore.json
+2a36dfa46f517b290624669031cd6e5b12c11ecf data\learning-fabric-1\loot_table\blocks\example_planks.json
+f170daa88ad88aefe17e010537ac39fc2b61ad35 data\learning-fabric-1\loot_table\blocks\example_slab.json
+40bd27b8d404e538671b3850621284af92ac4d7c data\learning-fabric-1\loot_table\blocks\example_flower.json
+a1bc54ff0a673444bb642dbbc36a52c063ae6be0 data\learning-fabric-1\loot_table\blocks\example_wood.json
+7e002657d515d1330653f05ac91b12733cdf8553 data\minecraft\loot_table\blocks\oak_hanging_sign.json
+154b0e0caca2c62f102327ea8845ba1458d88b29 data\learning-fabric-1\loot_table\blocks\example_sapling.json
+7e002657d515d1330653f05ac91b12733cdf8553 data\learning-fabric-1\loot_table\blocks\example_hanging_sign.json

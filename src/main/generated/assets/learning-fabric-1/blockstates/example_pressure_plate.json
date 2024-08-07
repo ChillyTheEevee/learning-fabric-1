@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "learning-fabric-1:block/example_pressure_plate"
+    },
+    "powered=true": {
+      "model": "learning-fabric-1:block/example_pressure_plate_down"
+    }
+  }
+}

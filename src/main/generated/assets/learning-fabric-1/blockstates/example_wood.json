@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "learning-fabric-1:block/example_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "learning-fabric-1:block/example_wood"
+    },
+    "axis=z": {
+      "model": "learning-fabric-1:block/example_wood",
+      "x": 90
+    }
+  }
+}

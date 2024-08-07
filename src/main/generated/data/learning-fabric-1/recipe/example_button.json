@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "learning-fabric-1:example_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "learning-fabric-1:example_button"
+  }
+}

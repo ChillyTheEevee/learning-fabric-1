@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "learning-fabric-1:block/example_planks"
+  }
+}
