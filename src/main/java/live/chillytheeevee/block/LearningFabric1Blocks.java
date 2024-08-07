@@ -1,10 +1,11 @@
 package live.chillytheeevee.block;
 
 import live.chillytheeevee.LearningFabric1;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 
 /**
  * A Class containing all of the {@link Block}s within LearningFabric1
@@ -16,6 +17,8 @@ public class LearningFabric1Blocks {
     public static final Block EXAMPLE_DEEPSLATE_ORE;
     public static final Block EXAMPLE_NETHER_ORE;
     public static final Block EXAMPLE_END_ORE;
+    public static final Block EXAMPLE_FLOWER;
+    public static final Block EXAMPLE_FLOWER_POT;
 
     /**
      * Registers LearningFabric1's Blocks with Minecraft
@@ -40,6 +43,14 @@ public class LearningFabric1Blocks {
         EXAMPLE_END_ORE = register("example_end_ore", new Block(AbstractBlock.Settings.create()
                 .strength(3.0f, 3.0f)
                 .requiresTool()));
+        EXAMPLE_FLOWER = register("example_flower", new FlowerBlock(
+                StatusEffects.DOLPHINS_GRACE, 8.0f, AbstractBlock.Settings.create()
+                .mapColor(MapColor.DARK_RED)
+                .noCollision()
+                .breakInstantly()
+                .sounds(BlockSoundGroup.GRASS)
+                .offset(AbstractBlock.OffsetType.XZ)));
+        EXAMPLE_FLOWER_POT = register("example_flower_pot", Blocks.createFlowerPotBlock(EXAMPLE_FLOWER));
     }
 
     /**

@@ -49,6 +49,8 @@ public class LearningFabric1EnglishLanguageProvider extends FabricLanguageProvid
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_NETHER_ORE, "Example Nether Ore");
         translationBuilder.add(LearningFabric1Blocks.EXAMPLE_END_ORE, "Example End Ore");
         addText(translationBuilder, LearningFabric1ItemGroups.EXAMPLE_ITEM_GROUP.getDisplayName(), "Learning Fabric 1");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_FLOWER, "Example Flower");
+        translationBuilder.add(LearningFabric1Blocks.EXAMPLE_FLOWER_POT, "Example Flower Pot");
     }
 
 }

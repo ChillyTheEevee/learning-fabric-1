@@ -26,5 +26,7 @@ public class LearningFabric1BlockLootTableProvider extends FabricBlockLootTableP
                 oreDrops(LearningFabric1Blocks.EXAMPLE_NETHER_ORE, LearningFabric1Items.EXAMPLE_RAW_ITEM));
         addDrop(LearningFabric1Blocks.EXAMPLE_END_ORE,
                 oreDrops(LearningFabric1Blocks.EXAMPLE_END_ORE, LearningFabric1Items.EXAMPLE_RAW_ITEM));
+        addDrop(LearningFabric1Blocks.EXAMPLE_FLOWER);
+        addPottedPlantDrops(LearningFabric1Blocks.EXAMPLE_FLOWER_POT);
     }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "learning-fabric-1:block/example_flower"
+  }
+}

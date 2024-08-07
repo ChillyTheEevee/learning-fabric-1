@@ -21,6 +21,8 @@ public class LearningFabric1ModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(LearningFabric1Blocks.EXAMPLE_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(LearningFabric1Blocks.EXAMPLE_NETHER_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(LearningFabric1Blocks.EXAMPLE_END_ORE);
+        blockStateModelGenerator.registerFlowerPotPlant(LearningFabric1Blocks.EXAMPLE_FLOWER,
+                LearningFabric1Blocks.EXAMPLE_FLOWER_POT, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

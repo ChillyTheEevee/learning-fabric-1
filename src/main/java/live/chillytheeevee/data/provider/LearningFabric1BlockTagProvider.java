@@ -39,5 +39,11 @@ public class LearningFabric1BlockTagProvider extends FabricTagProvider.BlockTagP
                 .add(LearningFabric1Blocks.EXAMPLE_BLOCK);
 
         getOrCreateTagBuilder(LearningFabric1BlockTags.INCORRECT_FOR_EXAMPLE_TOOL);
+
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(LearningFabric1Blocks.EXAMPLE_FLOWER);
+
+        getOrCreateTagBuilder(BlockTags.FLOWER_POTS)
+                .add(LearningFabric1Blocks.EXAMPLE_FLOWER_POT);
     }
 }
