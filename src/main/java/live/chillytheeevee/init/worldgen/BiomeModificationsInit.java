@@ -23,5 +23,11 @@ public class BiomeModificationsInit {
                 GenerationStep.Feature.UNDERGROUND_ORES,
                 PlacedFeatureInit.END_EXAMPLE_ORE_KEY
         );
+
+        BiomeModifications.addFeature(
+                BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.VEGETAL_DECORATION,
+                PlacedFeatureInit.EXAMPLE_FLOWER_PATCH_KEY
+        );
     }
 }

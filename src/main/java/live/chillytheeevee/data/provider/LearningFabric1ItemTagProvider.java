@@ -32,5 +32,7 @@ public class LearningFabric1ItemTagProvider extends FabricTagProvider.ItemTagPro
                 .add(LearningFabric1Items.EXAMPLE_CHESTPLATE)
                 .add(LearningFabric1Items.EXAMPLE_LEGGINGS)
                 .add(LearningFabric1Items.EXAMPLE_BOOTS);
+        getOrCreateTagBuilder(ItemTags.SMALL_FLOWERS)
+                .add(LearningFabric1Items.EXAMPLE_FLOWER);
     }
 }

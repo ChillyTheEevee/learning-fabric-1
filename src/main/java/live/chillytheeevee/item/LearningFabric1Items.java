@@ -29,6 +29,7 @@ public class LearningFabric1Items {
     public static final Item EXAMPLE_CHESTPLATE;
     public static final Item EXAMPLE_LEGGINGS;
     public static final Item EXAMPLE_BOOTS;
+    public static final Item EXAMPLE_FLOWER;
 
     /**
      * Registers LearningFabric1's Items with Minecraft
@@ -85,6 +86,8 @@ public class LearningFabric1Items {
         EXAMPLE_BOOTS = register("example_boots",
                 new ArmorItem(LearningFabric1ArmorMaterials.EXAMPLE,
                         ArmorItem.Type.BOOTS, new Item.Settings().maxCount(1)));
+        EXAMPLE_FLOWER = register("example_flower",
+                new BlockItem(LearningFabric1Blocks.EXAMPLE_FLOWER, new Item.Settings()));
     }
 
     /**

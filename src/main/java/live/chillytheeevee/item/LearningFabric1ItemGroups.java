@@ -44,6 +44,7 @@ public class LearningFabric1ItemGroups {
                     entries.add(LearningFabric1Items.EXAMPLE_CHESTPLATE);
                     entries.add(LearningFabric1Items.EXAMPLE_LEGGINGS);
                     entries.add(LearningFabric1Items.EXAMPLE_BOOTS);
+                    entries.add(LearningFabric1Items.EXAMPLE_FLOWER);
                 }))
                 .build());
     }

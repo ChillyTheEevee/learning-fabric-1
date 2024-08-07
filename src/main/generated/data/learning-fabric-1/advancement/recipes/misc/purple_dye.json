@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_example_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "learning-fabric-1:example_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:purple_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_example_flower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:purple_dye"
+    ]
+  }
+}

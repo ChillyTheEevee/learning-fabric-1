@@ -1,15 +1,16 @@
-// 1.21	2024-08-06T15:45:25.2899403	Learning Fabric 1/Recipes
+// 1.21	2024-08-06T22:36:12.2595474	Learning Fabric 1/Recipes
 f58093fd3491acf1cee89a1ecc2f09ca7e8d837f data\learning-fabric-1\advancement\recipes\combat\example_leggings.json
 48d3070bb74239cf85d27d568a9a94cf94d2c359 data\learning-fabric-1\recipe\example_item_from_smelting_example_overworld_ore.json
 859e6f1fec9ad8ebb819c19b9074ce6011b8fb9b data\learning-fabric-1\advancement\recipes\misc\example_item.json
-59f6445c024b18741c550717f1467941127d36bd data\learning-fabric-1\recipe\example_hoe.json
 7f83302177c9d300bfaab844e95786f148e0c270 data\learning-fabric-1\recipe\example_axe.json
+59f6445c024b18741c550717f1467941127d36bd data\learning-fabric-1\recipe\example_hoe.json
 8fba0c9d7fdfab0c538933ef5ee115a8751d7148 data\learning-fabric-1\recipe\example_item_from_blasting_example_overworld_ore.json
 258b901fdfb215d696c0f88dc8d05c124ce9f063 data\learning-fabric-1\advancement\recipes\misc\example_item_from_blasting_example_overworld_ore.json
 ccb411ac4c23df0fefb8cbd6b481d68d9ea4f2ce data\learning-fabric-1\advancement\recipes\combat\example_helmet.json
 4aab919c2a1fde01d02ee0aa01a20346298d094a data\learning-fabric-1\recipe\example_leggings.json
 bb20a2b6efefb99a6e04f494f726a4529530300d data\learning-fabric-1\recipe\example_item_from_smelting_example_end_ore.json
 a644a559648cdfdb8e5a3f6753847b76f900f331 data\learning-fabric-1\recipe\example_sword.json
+4d24263c1839486028da55e7d081c07be68c5ad1 data\learning-fabric-1\recipe\purple_dye.json
 4f822e8ed47bfd730ef83a2d00f9ca47bf8ea62a data\learning-fabric-1\advancement\recipes\combat\example_sword.json
 057a22069551aa1a2d657a3e6e6ee45a69629c22 data\learning-fabric-1\advancement\recipes\tools\example_axe.json
 498aefaee8dee7d7d77263265876d4a88a0e9b93 data\learning-fabric-1\recipe\example_chestplate.json
@@ -28,6 +29,7 @@ f24374024db41ee84550f5927723623b388eb969 data\learning-fabric-1\advancement\reci
 75cc6ba78cc6e17f311d911b6fe91f9134e820a8 data\learning-fabric-1\recipe\example_item_from_blasting_example_end_ore.json
 430b8fc6f477923a52949eaba2d83df1ef97c87f data\learning-fabric-1\recipe\example_pickaxe.json
 c226582c83f9bf239240c59ce98437e1fd0dd871 data\learning-fabric-1\advancement\recipes\tools\example_shovel.json
+cd2f5bd1a4bbc2be1d872dc0de470347a7fe65d1 data\learning-fabric-1\advancement\recipes\misc\purple_dye.json
 ff6621c16970dd98e496e58515d3278b179c5e41 data\learning-fabric-1\advancement\recipes\misc\example_item_from_smelting_example_end_ore.json
 5c300aceb3817312215aa81196147bcbc388071f data\learning-fabric-1\recipe\example_helmet.json
 63f9036d4a05419e75ced9aca7ee3bd0ff5cf264 data\learning-fabric-1\advancement\recipes\combat\example_boots.json

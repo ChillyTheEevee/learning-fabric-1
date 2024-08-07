@@ -1,5 +1,6 @@
-// 1.21	2024-08-06T15:45:25.2949268	Learning Fabric 1/Tags for minecraft:item
+// 1.21	2024-08-06T22:36:12.265544	Learning Fabric 1/Tags for minecraft:item
 99d37661ad98ff02b043e8eec1354beffca53292 data\minecraft\tags\item\beacon_payment_items.json
+a30553f445ce6081673672d8f442ccef38813d77 data\minecraft\tags\item\small_flowers.json
 ef0e96eeebbc903aa3e9fd2b4cc29f90f3d237b2 data\minecraft\tags\item\axes.json
 645003451ec42e8bc27af63ef04736448aa333aa data\minecraft\tags\item\swords.json
 0d3c2bc1836d06bac40ab42dc5ac1e35432d397e data\minecraft\tags\item\shovels.json

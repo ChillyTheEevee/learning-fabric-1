@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.TagKey;
@@ -112,6 +113,10 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, LearningFabric1Blocks.EXAMPLE_BLOCK, 1)
                 .input(LearningFabric1Items.EXAMPLE_ITEM, 9)
                 .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PURPLE_DYE)
+                .input(LearningFabric1Blocks.EXAMPLE_FLOWER)
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_FLOWER), conditionsFromItem(LearningFabric1Items.EXAMPLE_FLOWER))
                 .offerTo(exporter);
     }
 
