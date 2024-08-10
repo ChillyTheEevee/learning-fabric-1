@@ -1,4 +1,4 @@
-// 1.21	2024-08-07T04:26:55.5290464	Learning Fabric 1/Model Definitions
+// 1.21	2024-08-08T00:42:11.9761762	Learning Fabric 1/Model Definitions
 a06c3f89198944ab4f11284a786a2ad76e0cafd9 assets\learning-fabric-1\blockstates\example_fence_gate.json
 49b937fd4dc106e15c391802a0e7d76a7a5eb73a assets\learning-fabric-1\blockstates\example_trapdoor.json
 f67f9e319fba9a49544302f1189fc6342c40bf67 assets\learning-fabric-1\models\item\example_hoe.json
@@ -48,6 +48,7 @@ a74f723b5651b9c79120787efa96592a4c5928e3 assets\learning-fabric-1\blockstates\ex
 38a3a3fbddb081793278ddcd6761b0105a340346 assets\learning-fabric-1\models\item\example_block.json
 f28fcf4dbafd39fbdca8316b6b61fa55b9a441e5 assets\learning-fabric-1\blockstates\example_stripped_wood.json
 07972dac5d10a3f319142575d557116eacbf98b4 assets\learning-fabric-1\models\block\example_door_top_left.json
+44fcce9a1c49df053ef2796c2789abae51551d32 assets\learning-fabric-1\models\item\example_fire_staff.json
 6fe52e503b2ba881e88c1cedf990f110f7b709db assets\learning-fabric-1\models\item\example_boots.json
 e39e393f535e8109a9be78de7d06858385aa6767 assets\learning-fabric-1\models\item\example_fence.json
 8d789aebebeebdafdbb3220dd74d7b4a66788cdf assets\learning-fabric-1\models\item\example_sword.json
@@ -58,13 +59,13 @@ bf73e2d60970abee2544f5d8aa3814a3fa350567 assets\learning-fabric-1\models\item\ex
 4e88fa6d1a894f8575922330511ee568b6ef0b1f assets\learning-fabric-1\models\block\example_fence_gate.json
 925d69790c42843cca903f670f5024b5f0cbe950 assets\learning-fabric-1\models\item\example_stairs.json
 c238f5e0c973e97c60efe465ced3c946627b077f assets\learning-fabric-1\blockstates\example_door.json
-469fd5a355a2deb7eee217e72a5158b82eb3f46b assets\learning-fabric-1\models\block\example_stripped_wood.json
 fe1246a9a780e411d936154303d40f8073910508 assets\learning-fabric-1\models\item\example_chest_boat.json
+469fd5a355a2deb7eee217e72a5158b82eb3f46b assets\learning-fabric-1\models\block\example_stripped_wood.json
 b7e4c75d0189f24adcdf44326b9fcfed89ab95ef assets\learning-fabric-1\models\block\example_fence_inventory.json
 9426a42dc74b52573573e9592531af45336e7ffd assets\learning-fabric-1\blockstates\example_button.json
 20ccf82a23e0d020a57688beb155b04a70ab632d assets\learning-fabric-1\models\item\example_helmet.json
-8f6704dbc2fcc93d26d452732f98ee887e405e76 assets\learning-fabric-1\blockstates\example_wall_hanging_sign.json
 48a92aff1bda31baf69337a538e39959fb7b2560 assets\learning-fabric-1\blockstates\example_nether_ore.json
+8f6704dbc2fcc93d26d452732f98ee887e405e76 assets\learning-fabric-1\blockstates\example_wall_hanging_sign.json
 043824a9eb4a38d9ec53a4ff4bf1e70a1f78e907 assets\learning-fabric-1\models\item\example_nether_ore.json
 70f8eeac1f52cb6b3d1cf166c8803c890500f7a0 assets\learning-fabric-1\models\block\example_stairs_outer.json
 a9dedc39bbca25c061461cb27d3284c24267c008 assets\learning-fabric-1\models\block\example_fence_gate_open.json

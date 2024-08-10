@@ -7,6 +7,7 @@ import live.chillytheeevee.component.type.LearningFabric1FoodComponents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.Rarity;
 
 /**
  * A Class containing all the {@link Item}s within LearningFabric1
@@ -50,6 +51,7 @@ public class LearningFabric1Items {
     public static final Item EXAMPLE_HANGING_SIGN;
     public static final Item EXAMPLE_BOAT;
     public static final Item EXAMPLE_CHEST_BOAT;
+    public static final Item EXAMPLE_FIRE_STAFF;
 
     /**
      * Registers LearningFabric1's Items with Minecraft
@@ -96,6 +98,12 @@ public class LearningFabric1Items {
         EXAMPLE_BOOTS = register("example_boots",
                 new ArmorItem(LearningFabric1ArmorMaterials.EXAMPLE,
                         ArmorItem.Type.BOOTS, new Item.Settings().maxCount(1)));
+        EXAMPLE_FIRE_STAFF = register("example_fire_staff", new FireStaffItem(new Item.Settings()
+                .maxCount(1)
+                .maxDamage(64)
+                .fireproof()
+                .rarity(Rarity.EPIC)
+        ));
 
         // Register BlockItems
         EXAMPLE_BLOCK = register("example_block",

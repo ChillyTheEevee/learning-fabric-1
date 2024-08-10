@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "learning-fabric-1:example_item"
+    },
+    "F": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "pattern": [
+    "F",
+    "E",
+    "E"
+  ],
+  "result": {
+    "count": 1,
+    "id": "learning-fabric-1:example_fire_staff"
+  }
+}
