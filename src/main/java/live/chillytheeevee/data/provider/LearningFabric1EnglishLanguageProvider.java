@@ -72,6 +72,7 @@ public class LearningFabric1EnglishLanguageProvider extends FabricLanguageProvid
         translationBuilder.add(LearningFabric1Items.EXAMPLE_BOAT, "Example Boat");
         translationBuilder.add(LearningFabric1Items.EXAMPLE_CHEST_BOAT, "Example Boat With Chest");
         translationBuilder.add(LearningFabric1ItemTags.EXAMPLE_LOGS, "Example Logs");
+        translationBuilder.add(LearningFabric1Items.EXAMPLE_FIRE_STAFF, "Example Fire Staff");
     }
 
 }

@@ -64,6 +64,7 @@ public class LearningFabric1ItemGroups {
                     entries.add(LearningFabric1Items.EXAMPLE_HANGING_SIGN);
                     entries.add(LearningFabric1Items.EXAMPLE_BOAT);
                     entries.add(LearningFabric1Items.EXAMPLE_CHEST_BOAT);
+                    entries.add(LearningFabric1Items.EXAMPLE_FIRE_STAFF);
                 }))
                 .build());
     }

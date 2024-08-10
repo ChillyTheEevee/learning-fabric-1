@@ -39,6 +39,18 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
     private void generateShapedRecipes(RecipeExporter exporter) {
         generateExampleItemFamilyShapedRecipes(exporter);
         generateExampleWoodFamilyShapedRecipes(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_FIRE_STAFF)
+                .input('E', LearningFabric1Items.EXAMPLE_ITEM)
+                .input('F', Items.FIRE_CHARGE)
+                .pattern("F")
+                .pattern("E")
+                .pattern("E")
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasItem(Items.FIRE_CHARGE),
+                        conditionsFromItem(Items.FIRE_CHARGE))
+                .offerTo(exporter);
     }
 
     private void generateExampleItemFamilyShapedRecipes(RecipeExporter exporter) {
@@ -48,8 +60,10 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .pattern("E")
                 .pattern("E")
                 .pattern("S")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
-                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS), conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS),
+                        conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, LearningFabric1Items.EXAMPLE_PICKAXE)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
@@ -57,8 +71,10 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .pattern("EEE")
                 .pattern(" S ")
                 .pattern(" S ")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
-                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS), conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS),
+                        conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, LearningFabric1Items.EXAMPLE_AXE)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
@@ -66,8 +82,10 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .pattern("EE")
                 .pattern("ES")
                 .pattern(" S")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
-                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS), conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS),
+                        conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, LearningFabric1Items.EXAMPLE_SHOVEL)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
@@ -75,8 +93,10 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .pattern("E")
                 .pattern("S")
                 .pattern("S")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
-                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS), conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS),
+                        conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, LearningFabric1Items.EXAMPLE_HOE)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
@@ -84,34 +104,40 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
                 .pattern("EE")
                 .pattern(" S")
                 .pattern(" S")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
-                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS), conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasTag(ConventionalItemTags.WOODEN_RODS),
+                        conditionsFromTag(ConventionalItemTags.WOODEN_RODS))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_HELMET)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
                 .pattern("EEE")
                 .pattern("E E")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_CHESTPLATE)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
                 .pattern("E E")
                 .pattern("EEE")
                 .pattern("EEE")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_LEGGINGS)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
                 .pattern("EEE")
                 .pattern("E E")
                 .pattern("E E")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, LearningFabric1Items.EXAMPLE_BOOTS)
                 .input('E', LearningFabric1Items.EXAMPLE_ITEM)
                 .pattern("E E")
                 .pattern("E E")
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
                 .offerTo(exporter);
     }
 
@@ -228,25 +254,29 @@ public class LearningFabric1RecipeProvider extends FabricRecipeProvider {
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PURPLE_DYE)
                 .input(LearningFabric1Blocks.EXAMPLE_FLOWER)
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_FLOWER), conditionsFromItem(LearningFabric1Items.EXAMPLE_FLOWER))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_FLOWER),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_FLOWER))
                 .offerTo(exporter);
     }
 
     private void generateExampleItemFamilyShapelessRecipes(RecipeExporter exporter) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, LearningFabric1Items.EXAMPLE_ITEM, 9)
                 .input(LearningFabric1Blocks.EXAMPLE_BLOCK)
-                .criterion(hasItem(LearningFabric1Blocks.EXAMPLE_BLOCK), conditionsFromItem(LearningFabric1Blocks.EXAMPLE_BLOCK))
+                .criterion(hasItem(LearningFabric1Blocks.EXAMPLE_BLOCK),
+                        conditionsFromItem(LearningFabric1Blocks.EXAMPLE_BLOCK))
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, LearningFabric1Blocks.EXAMPLE_BLOCK, 1)
                 .input(LearningFabric1Items.EXAMPLE_ITEM, 9)
-                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM), conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
+                .criterion(hasItem(LearningFabric1Items.EXAMPLE_ITEM),
+                        conditionsFromItem(LearningFabric1Items.EXAMPLE_ITEM))
                 .offerTo(exporter);
     }
 
     private void generateExampleWoodFamilyShapelessRecipes(RecipeExporter exporter) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, LearningFabric1Items.EXAMPLE_PLANKS, 4)
                 .input(Ingredient.fromTag(LearningFabric1ItemTags.EXAMPLE_LOGS))
-                .criterion(hasTag(LearningFabric1ItemTags.EXAMPLE_LOGS), conditionsFromTag(LearningFabric1ItemTags.EXAMPLE_LOGS))
+                .criterion(hasTag(LearningFabric1ItemTags.EXAMPLE_LOGS),
+                        conditionsFromTag(LearningFabric1ItemTags.EXAMPLE_LOGS))
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, LearningFabric1Items.EXAMPLE_BUTTON)
                 .input(LearningFabric1Items.EXAMPLE_PLANKS)

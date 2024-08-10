@@ -58,19 +58,27 @@ public class LearningFabric1ModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        generateGenericModels(itemModelGenerator);
+        generateToolModels(itemModelGenerator);
+    }
+
+    private void generateGenericModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_ITEM, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_RAW_ITEM, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_FOOD, Models.GENERATED);
-        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_AXE, Models.HANDHELD);
-        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_HOE, Models.HANDHELD);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_HELMET, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_BOOTS, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_BOAT, Models.GENERATED);
         itemModelGenerator.register(LearningFabric1Items.EXAMPLE_CHEST_BOAT, Models.GENERATED);
+    }
+    private void generateToolModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(LearningFabric1Items.EXAMPLE_FIRE_STAFF, Models.HANDHELD);
     }
 }
